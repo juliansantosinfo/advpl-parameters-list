@@ -1,0 +1,60 @@
+{
+  "name": "advpl-parameters-list",
+  "displayName": "AdvPL Parameters List",
+  "description": "A extensão AdvPL Parameter List oferece uma maneira eficiente de listar e visualizar os parâmetros utilizados no código fonte AdvPL em edição no Visual Studio Code. Desenvolvida especialmente para programadores AdvPL, essa ferramenta simplifica o processo de compreensão e navegação através dos parâmetros de funções e métodos, melhorando a produtividade durante o desenvolvimento.",
+  "version": "0.0.1",
+  "icon": "img/icon.png",
+  "publisher": "JulianSantos",
+  "author": {
+    "name": "Julian de Almeida Santos",
+    "email": "julian.santos.info@gmail.com"
+  },
+  "license": "GPL-3.0-only",
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "advpl",
+    "parameters",
+    "totvs",
+    "protheus"
+  ],
+  "engines": {
+    "vscode": "^1.87.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onLanguage:plaintext",
+    "onLanguage:advpl",
+    "onLanguage:tlpp"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "views": {
+      "explorer": [
+        {
+          "id": "sideBarMenu",
+          "name": "AdvPL Parâmetros"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.87.0",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "18.x",
+    "eslint": "^8.56.0",
+    "typescript": "^5.3.3",
+    "@vscode/test-cli": "^0.0.6",
+    "@vscode/test-electron": "^2.3.9"
+  }
+}
