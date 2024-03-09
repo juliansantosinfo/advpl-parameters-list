@@ -10,10 +10,10 @@
     "email": "julian.santos.info@gmail.com"
   },
   "license": "GPL-3.0-only",
-  "homepage": "",
+  "homepage": "https://github.com/juliansantosinfo/advpl-parameters-list",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/juliansantosinfo/advpl-parameters-list"
   },
   "keywords": [
     "advpl",
@@ -34,6 +34,27 @@
   ],
   "main": "./extension.js",
   "contributes": {
+    "configuration": {
+      "type": "object",
+      "title": "AdvPL Parameters List",
+      "properties": {
+        "advplParametersList.regex.GetNewPar": {
+          "type": "string",
+          "default": "GetNewPar\\(\\s*\"(.+?)\"",
+          "description": "Define expressão regex para busca da função GetNewPar"
+        },
+        "advplParametersList.regex.GetMV": {
+          "type": "string",
+          "default": "/GetMV\\(\\s*\"(.+?)\"",
+          "description": "Define expressão regex para busca da função GetMV"
+        },
+        "advplParametersList.regex.SuperGetMV": {
+          "type": "string",
+          "default": "/SuperGetMV\\(\\s*\"(.+?)\"",
+          "description": "Define expressão regex para busca da função SuperGetMV"
+        }
+      }
+    },
     "views": {
       "explorer": [
         {

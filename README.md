@@ -1,65 +1,33 @@
 # advpl-parameters-list README
 
-This is the README for your extension "advpl-parameters-list". After writing up a brief description, we recommend including the following sections.
+A extensão AdvPL Parameter List oferece uma maneira eficiente de listar e visualizar os parâmetros utilizados no código fonte AdvPL em edição no Visual Studio Code. 
+Desenvolvida especialmente para programadores AdvPL, essa ferramenta simplifica o processo de compreensão e navegação através dos parâmetros de funções e métodos, melhorando a produtividade durante o desenvolvimento.
 
-## Features
+## Recursos
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+A extensão **advpl-parameters-list** fornece uma maneira conveniente de navegar e explorar os parâmetros usados em arquivos AdvPL (Advanced Protheus Language) dentro do Visual Studio Code.
 
-For example if there is an image subfolder under your extension project workspace:
+### Principais recursos:
+- **Navegação de Parâmetros**: Navegue rapidamente pelos arquivos AdvPL e vá para a definição dos parâmetros.
+- **Listagem de Parâmetros**: Visualize uma lista de parâmetros usados no arquivo AdvPL atual.
+- **Atualização Dinâmica**: A lista de parâmetros é atualizada automaticamente conforme você edita o arquivo AdvPL.
 
-\!\[feature X\]\(images/feature-x.png\)
+![Feature](images/feature.png)
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+## Requisitos
 
-## Requirements
+Não há requisitos ou dependências específicas para esta extensão. Ela se integra perfeitamente ao seu ambiente do Visual Studio Code.
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+## Configurações da Extensão
 
-## Extension Settings
+Esta extensão não possui configurações configuráveis no momento.
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+## Problemas Conhecidos
 
-For example:
+Atualmente não há problemas conhecidos com esta extensão. Se encontrar algum problema, por favor, reporte na [página de issues do GitHub](https://github.com/your-username/advpl-parameters-list/issues).
 
-This extension contributes the following settings:
+## Notas de Lançamento
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+### 0.0.1
 
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+Lançamento inicial da extensão **advpl-parameters-list**.
