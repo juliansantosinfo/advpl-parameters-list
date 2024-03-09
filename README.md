@@ -14,6 +14,10 @@ A extensão **advpl-parameters-list** fornece uma maneira conveniente de navegar
 - **Listagem de Parâmetros**: Visualize uma lista de parâmetros usados no arquivo AdvPL atual.
 - **Atualização Dinâmica**: A lista de parâmetros é atualizada automaticamente conforme você edita o arquivo AdvPL.
 
+## Amostra
+
+![gif-sample](img/sample.gif)
+
 ## Requisitos
 
 Não há requisitos ou dependências específicas para esta extensão. Ela se integra perfeitamente ao seu ambiente do Visual Studio Code.
