@@ -38,19 +38,19 @@
       "type": "object",
       "title": "AdvPL Parameters List",
       "properties": {
-        "advplParametersList.regex.GetNewPar": {
+        "advplParametersList.regex.getmv": {
+          "type": "string",
+          "default": "(?<!\\bSupers*)GetMV\\(\\s*\"(.+?)\"",
+          "description": "Define expressão regex para busca da função GetMV"
+        },
+        "advplParametersList.regex.getnewpar": {
           "type": "string",
           "default": "GetNewPar\\(\\s*\"(.+?)\"",
           "description": "Define expressão regex para busca da função GetNewPar"
         },
-        "advplParametersList.regex.GetMV": {
+        "advplParametersList.regex.supergetmv": {
           "type": "string",
-          "default": "/GetMV\\(\\s*\"(.+?)\"",
-          "description": "Define expressão regex para busca da função GetMV"
-        },
-        "advplParametersList.regex.SuperGetMV": {
-          "type": "string",
-          "default": "/SuperGetMV\\(\\s*\"(.+?)\"",
+          "default": "SuperGetMV\\(\\s*\"(.+?)\"",
           "description": "Define expressão regex para busca da função SuperGetMV"
         }
       }

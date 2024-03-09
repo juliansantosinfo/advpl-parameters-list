@@ -50,9 +50,9 @@ class SideBarMenuProvider {
     extensionSettings = vscode.workspace.getConfiguration(
       "advplParametersList"
     );
-    regexGetNewPar = extensionSettings.regex.GetNewPar; // Expressão regular para encontrar chamadas da função GetNewPar
-    regexGetMV = extensionSettings.regex.GetMV; // Expressão regular para encontrar chamadas da função GetMV
-    regexSuperGetMV = extensionSettings.regex.SuperGetMV; // Expressão regular para encontrar chamadas da função SuperGetMV
+    regexGetNewPar = extensionSettings.regex.getnewpar; // Expressão regular para encontrar chamadas da função GetNewPar
+    regexGetMV = extensionSettings.regex.getmv; // Expressão regular para encontrar chamadas da função GetMV
+    regexSuperGetMV = extensionSettings.regex.supergetmv; // Expressão regular para encontrar chamadas da função SuperGetMV
 
     const activeEditor = vscode.window.activeTextEditor;
     if (!activeEditor) {
