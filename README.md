@@ -33,3 +33,12 @@ Atualmente não há problemas conhecidos com esta extensão. Se encontrar algum 
 ### 0.0.1
 
 Lançamento inicial da extensão **advpl-parameters-list**.
+
+## Contribua
+
+Você pode contribuir com o desenvolvimento desta extensão de várias maneiras:
+
+1. Reporte problemas e sugira novos recursos na [página de issues do GitHub](https://github.com/juliansantosinfo/advpl-parameters-list/issues).
+2. Faça um fork do repositório, faça suas alterações e envie um pull request.
+3. Ajude a melhorar a documentação.
+4. Compartilhe esta extensão com outros desenvolvedores.
