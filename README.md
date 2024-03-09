@@ -1,4 +1,4 @@
-![icon](img/icon.png)
+![icon](images/icon.png)
 
 # advpl-parameters-list
 
@@ -16,7 +16,7 @@ A extensão **advpl-parameters-list** fornece uma maneira conveniente de navegar
 
 ## Amostra
 
-![gif-sample](img/sample.gif)
+![gif-sample](images/sample.gif)
 
 ## Requisitos
 
