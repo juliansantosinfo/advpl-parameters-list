@@ -34,6 +34,7 @@ class SideBarMenuProvider {
   // Método para obter a representação do item de árvore
   getTreeItem(element) {
     return {
+      iconPath: new vscode.ThemeIcon('gear'),
       label: element.label,
       collapsibleState: vscode.TreeItemCollapsibleState.None,
       // Comando para abrir o arquivo na linha correspondente ao item da árvore
