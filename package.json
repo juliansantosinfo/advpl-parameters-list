@@ -2,7 +2,7 @@
   "name": "advpl-parameters-list",
   "displayName": "AdvPL Parameters List",
   "description": "A extensão AdvPL Parameter List oferece uma maneira eficiente de listar e visualizar os parâmetros utilizados no código fonte AdvPL em edição no Visual Studio Code. Desenvolvida especialmente para programadores AdvPL, essa ferramenta simplifica o processo de compreensão e navegação através dos parâmetros de funções e métodos, melhorando a produtividade durante o desenvolvimento.",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "icon": "images/icon.png",
   "publisher": "JulianSantos",
   "author": {
@@ -28,7 +28,6 @@
     "Other"
   ],
   "activationEvents": [
-    "onLanguage:plaintext",
     "onLanguage:advpl",
     "onLanguage:tlpp"
   ],

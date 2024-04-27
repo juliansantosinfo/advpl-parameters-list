@@ -60,7 +60,12 @@ class SideBarMenuProvider {
       return [];
     }
 
-    const text = activeEditor.document.getText();
+    const textEditor = activeEditor.document.getText();
+    if (textEditor.length === 0) {
+      return [];
+    }
+
+    const text = textEditor;
     const configItems = [];
 
     // Funções para identificar chamadas de função específicas e adicionar seus parâmetros à lista
@@ -144,9 +149,6 @@ function getCallsSuperGetMV(text, configItems) {
 // Função para ativar a extensão
 function activate(context) {
   console.log("Extensão AdvPL Parameters List foi ativada.");
-  vscode.window.showInformationMessage(
-    "Extensão AdvPL Parameters List foi ativada."
-  );
 
   // Criar a barra lateral e registrar a classe como provedor de dados
   const sideBarMenu = vscode.window.createTreeView("sideBarMenu", {
